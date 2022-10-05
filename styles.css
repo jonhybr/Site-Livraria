@@ -1,0 +1,12 @@
+body{    
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+label{
+    white-space: pre;    
+}
+
+.titulo{
+    text-align: center;
+    background-color: antiquewhite
+}
