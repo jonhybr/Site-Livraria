@@ -1,0 +1,65 @@
+body{    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%; 
+    height: 100pc;
+    position: relative;
+}
+
+aside{
+    float: left;
+    width: 15%;
+    background-color: antiquewhite;    
+    margin-left: 140px;
+    height: 95pc;
+    border: solid;
+    border: 20px black;
+}
+
+#tabela-filtro{    
+    width: 100%;
+    text-align: left;
+    padding-left: 85px;
+    background-color: navajowhite;
+    border-style: solid;
+    border: 20px black;    
+}
+
+#grid-livros{    
+    width: 96%;
+    text-align: left;
+    padding-left: 30px;
+    background-color: navajowhite;
+      
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+    gap: 20px;     
+}
+
+nav{
+    text-align: center;
+    background-color: beige;
+    width: 70%;
+    margin-right: 120px;
+    position: absolute;
+    right: 0px;    
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;           
+    height: 50px;
+}
+
+header{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+label{
+    white-space: pre;    
+}
