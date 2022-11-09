@@ -6,11 +6,19 @@ body{
     position: relative;
 }
 
+<<<<<<< HEAD
 #filtros_aside{
     float: left;
     width: 12%;
     background-color: antiquewhite;    
     margin-left: 50px;
+=======
+aside{
+    float: left;
+    width: 15%;
+    background-color: antiquewhite;    
+    margin-left: 140px;
+>>>>>>> 66f0472da05f17f4e6fc760ec0bcee19433c078f
     height: 95pc;
     border: solid;
     border: 20px black;
@@ -19,13 +27,18 @@ body{
 #tabela-filtro{    
     width: 100%;
     text-align: left;
+<<<<<<< HEAD
     padding-left: 50px;
+=======
+    padding-left: 85px;
+>>>>>>> 66f0472da05f17f4e6fc760ec0bcee19433c078f
     background-color: navajowhite;
     border-style: solid;
     border: 20px black;    
 }
 
 #grid-livros{    
+<<<<<<< HEAD
     width: 98%;
     text-align: left;    
     background-color: navajowhite;      
@@ -45,6 +58,23 @@ input.large{
     background-color: beige;
     width: 82%;
     margin-right: 50px;
+=======
+    width: 96%;
+    text-align: left;
+    padding-left: 30px;
+    background-color: navajowhite;
+      
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+    gap: 20px;     
+}
+
+nav{
+    text-align: center;
+    background-color: beige;
+    width: 70%;
+    margin-right: 120px;
+>>>>>>> 66f0472da05f17f4e6fc760ec0bcee19433c078f
     position: absolute;
     right: 0px;    
     
